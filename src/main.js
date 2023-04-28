@@ -199,4 +199,4 @@ class Main {
     }
 }
 
-module.exports = new Main()
+module.exports = new Main().xmlCreator
