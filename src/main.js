@@ -129,6 +129,12 @@ class Main {
                 return this
             }
 
+            /**
+             * 
+             * @param {string} name The name of the child
+             * @returns {Menu}
+             */
+            
             findChildWithName(name) {
                 for (const child of this.children) {
                     if (child.name == name) {
