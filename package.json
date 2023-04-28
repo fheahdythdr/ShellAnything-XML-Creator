@@ -1,0 +1,14 @@
+{
+  "name": "shellanything-xml-creator",
+  "version": "1.0.0",
+  "description": "A library for creating ShellAnything XML files in NodeJS.",
+  "main": "src/main.js",
+  "keywords": [
+    "shellanything",
+    "shell",
+    "extensions",
+    "xml"
+  ],
+  "author": "fheahdythdr",
+  "license": "MIT"
+}
