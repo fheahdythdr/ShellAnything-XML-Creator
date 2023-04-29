@@ -7,7 +7,7 @@ function writeXML(path, content = []) {
     fs.writeFileSync(path, writtenString)
 }
 
-class Main {
+class XMLMain {
     constructor() {
         const xmlcontent = []
         const indentAmount = '    '
@@ -205,4 +205,4 @@ class Main {
     }
 }
 
-module.exports = new Main().xmlCreator
+module.exports = XMLMain
