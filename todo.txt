@@ -1,9 +1,8 @@
 -- todo --
 
 make it so you only have to call close() on the parent XML class, instead of on each and every menu
+finish jsdocs descriptions for each Menu function
 
 -- in progress --
-
-
 
 -- finished --
