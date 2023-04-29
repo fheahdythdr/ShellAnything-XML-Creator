@@ -333,4 +333,4 @@ class Main {
     }
 }
 
-module.exports = new Main().xmlCreator
+module.exports = Main
