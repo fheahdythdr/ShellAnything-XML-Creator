@@ -9,7 +9,7 @@ function writeXML(path, content = []) {
 
 class Main {
     constructor() {
-        const xmlcontent = []
+        let xmlcontent = []
         const indentAmount = '    '
         class Menu {
             constructor(name, description = "", indent = '        ') {
@@ -327,10 +327,11 @@ class Main {
                 xmlcontent.push('    </shell>');
                 xmlcontent.push('</root>')
                 writeXML(this.xmlPath, xmlcontent)
+                xmlcontent = []
             }
         }
         this.xmlCreator = ShellAnythingXML
     }
 }
 
-module.exports = Main
+module.exports = new Main().xmlCreator
